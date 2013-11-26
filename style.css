@@ -1,0 +1,117 @@
+/**
+ * Theme Name:  Boldly Go Blue
+ * Theme URI:   http://mardesco.com/themes/boldly-go-blue/
+ * Description: Your theme description.
+ * Version:     0.1.0
+ * Author:      Jesse Smith
+ * Author URI:  http://mardesco.com
+ * Tags:        custom-background, custom-colors, custom-header
+ * License:     GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Template:    stargazer
+ */
+
+
+ 
+/* minor mods to accommodate the fixed headerbar */
+ #container{
+	padding-top:57px;
+ }
+ 
+ @media screen and (max-width:799px){
+	#container{
+		padding-top:61px;
+	}
+ }
+ 
+ /* I like round corners. */
+  #container > .wrap{
+	border-radius:4px;
+ }
+
+ /* fixed headerbar. */
+ #menu-primary{
+	position:fixed;
+	width:100%;
+	top:0;
+	border-top:2px solid #0015d1;
+	z-index:10;
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#000000');
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color='#000000')";
+	/* WebKit */
+	-webkit-box-shadow: 0px 3px 6px #000;
+	/* Standard */
+	box-shadow: 0px 3px 6px #000;
+	}
+ 
+ #menu-primary .search-form > div{
+	background-color:#0016d9;
+ }
+ 
+ #menu-primary,
+ #footer{
+	background-color:#0011ac;
+ }
+ 
+ #menu-primary li li a,
+ #menu-secondary li li a{
+	background-color:#0011ac;
+ }
+ 
+ @media screen and (max-width:799px){
+	 #menu-secondary .wrap{
+		background-color:#0011ac;
+	 }
+ }
+  
+ #menu-primary ul ul li a:hover,
+ #menu-secondary ul ul li a:hover{
+	background-color:#0016d9;
+ }
+ 
+ .wrap #menu-primary-items li,
+ .wrap #menu-secondary-items li{
+	list-style:none;
+ }
+ 
+ #menu-primary .sub-menu{
+	border-radius:4px;
+ }
+ 
+ /* footer styles to match headerbar */
+  #footer{
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=180, Color='#000000');
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=180, Color='#000000')";
+	/* WebKit */
+	-webkit-box-shadow: 0px -3px 6px #000;
+	/* Standard */
+	box-shadow: 0px -3px 6px #000;
+ }
+ 
+ #footer .credit{
+	color:#9bc7fa;
+ }
+ 
+ /* required by ThemeCheck */
+ 
+ /* .sticky adapted from TwentyTwelve */
+ .sticky {
+	border-top: 4px double #ededed;
+	border-bottom: 4px double #ededed;
+	font-size: 13px;
+	font-size: 0.928571429rem;
+	line-height: 3.692307692;
+	margin-bottom: 24px;
+	margin-bottom: 1.714285714rem;
+	text-align: center;
+}
+
+/* .bypostauthor from TwentyThirteen */
+.bypostauthor > .comment-body .fn:before {
+	content: "\f408";
+	vertical-align: text-top;
+}
