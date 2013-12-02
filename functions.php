@@ -1,7 +1,7 @@
 <?php
 /**
  * @package    BoldlyGoBlue
- * @version    0.1.0
+ * @version    0.1.1
  * @author     Jesse Smith
  * @copyright  Copyright (c) 2013 by Jesse Smith for Mardesco
  * @link       http://mardesco.com/themes/boldly-go-blue/
@@ -30,7 +30,7 @@ function bgb_theme_setup() {
 	add_theme_support(
 		'custom-background',
 		array(
-			'default-color' => '0016d9',
+			'default-color' => '64a8f5',
 			'default-image' => '%2$s/images/backgrounds/stripe_6.png',
 		)
 	);
