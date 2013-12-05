@@ -1,4 +1,4 @@
 BoldlyGoBlue
 ============
 
-A blue WordPress child theme based on Justin Tadlock's "Stargazer."
+A blue WordPress theme built on Justin Tadlock's "Stargazer" theme framework.
