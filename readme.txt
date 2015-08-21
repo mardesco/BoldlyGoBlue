@@ -7,7 +7,7 @@ Donate link: http://www.mardesco.com/payments/
 
 
 Requires at least: 3.9.0
-Tested up to: 3.9.1
+Tested up to: 4.3
 Stable tag: 0.1.2
 License: GPLv2 or later
 
@@ -34,6 +34,9 @@ Pinstripes aren't your thing? It's easy to remove them and show off the tasteful
 1. screenshot.png
 
 == Changelog ==
+
+= 0.1.6 =
+Added text domain for improved internationalization.
 
 = 0.1.5 = 
 Corrected "tags" in style.css to only include allowed values.
